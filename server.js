@@ -1,7 +1,6 @@
 
 var http = require('http');
 var path = require('path');
-var socketio = require('socket.io');
 var express = require('express');
 var rss = require('node-rss');
 var request = require('request');
