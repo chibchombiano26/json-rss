@@ -4,11 +4,9 @@
   "description": "",
   "main": "server.js",
   "dependencies": {
-    "async": "^0.2.10",
     "express": "^3.2.6",
     "node-rss": "^1.0.5",
-    "request": "^2.69.0",
-    "socket.io": "^0.9.17"
+    "request": "^2.69.0"
   },
   "devDependencies": {},
   "scripts": {
