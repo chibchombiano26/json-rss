@@ -11,7 +11,7 @@ var router = express();
 var server = http.createServer(router);
 
 
-router.get('/json_to_rss', function (req, res) {
+router.get('/', function (req, res) {
   
   var termino = req.query.termino;
   var url = "https://api.import.io/store/connector/a54c4df2-e096-46ac-b522-19f9213509e5/_query?input=webpage/url:http%3A%2F%2Fwww.computrabajo.com.co%2Fofertas-de-trabajo%2F%3Fq%3D" + termino + "&&_apikey=333aef0ad29b4379aa452ff5a1fd2c761d945229d4b8a09db2f15db5a5acffa43e4c5136077a96af16ff02451082eb6076ebd28955de78c8bc879f9f61521bbb72fbfaa386171888dd4544f8d1bb89ad";
